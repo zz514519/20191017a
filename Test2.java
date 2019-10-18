@@ -1,3 +1,4 @@
+//自定义数组，并将元素按从小到大排列。
 import java.util.Arrays;
 import java.util.Scanner;
 public class Test2 {
@@ -13,7 +14,7 @@ public class Test2 {
         project(arr);
     }
     public static void project(int[] arr){
-        int[] ret =new int[arr.length];
+        int[] ret =arr;
         for(int i=0;i<ret.length-1;++i){
             for(int j=i;j<ret.length-i-1;++j) {
                 if(ret[j]>ret[j+1]){
